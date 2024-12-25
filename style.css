@@ -1,6 +1,76 @@
 * {
     margin: 0;
     padding: 0;
+}
+.Logo {
+    padding-left: 20px;
+}
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Menu {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    
+}
+.Menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+.Menu a:hover {
+    color: #ffcc00;
+}
+.button button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+}
 
-    box-sizing: border-box;
+.button button a {
+    text-decoration: none;
+}
+.button button:hover {
+    background-color: #ffcc00;
+    font-style: italic;
+}
+
+.Header {
+    text-align: center;
+    padding: 30px;
+    height: fit-content;
+    background-color: #f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Header h1 {
+    padding: 20px;
+    text-shadow: rgb(48, 129, 129) 10px 0 10px;
+}
+.Footer {
+    text-align: center;
+    bottom: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+.lorem {
+    display: flex;
+    flex-wrap: wrap;
 }
